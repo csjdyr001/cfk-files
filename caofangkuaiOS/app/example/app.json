@@ -1,0 +1,33 @@
+{
+    "type": "Application",
+    "ApplicationName": "示例程序",
+    "ApplicationPackName": "com.example.app",
+    "developer": "caofangkuai-studio",
+    "signature": "d5590301e1ee6f0400fb1ebd4acea231",
+    "ApplicationIconUrl": {
+        "icon": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/resource/icon/icon.png",
+        "backIcon": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/resource/icon/back.png",
+        "launcherIconURL": {
+            "1": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/resource/icon/launcher1.png",
+            "2": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/resource/icon/launcher2.png",
+            "3": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/resource/icon/launcher3.png"
+        }
+    },
+    "code": {
+        "window": {
+            "index": {
+                "type": "window",
+                "codeURL": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/code/index.txt",
+                "background": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/resource/icon/window/index/bg_example.png",
+                "component": {
+                    "component1": {
+                        "type": "button",
+                        "id": 1,
+                        "name": "button1",
+                        "image": "https://gitee.com/caofangkuai/caofangkuai-os/raw/master/caofangkuaiOS/app/example/resource/icon/window/index/btn_example1.png"
+                    }
+                }
+            }
+        }
+    }
+}
